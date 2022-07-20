@@ -1,0 +1,102 @@
+Node js  Latest Version -- intsall in system
+
+Java download
+
+Visual studio code download
+
+Create a new folder for cypress
+
+in Terminal use cmd for npm init 
+
+they will create package.json file
+
+install cypress with the help of npm - in terminal and globaly with cmd prompt as well
+
+npm install cypress --save-dev
+
+Open runner with the help of npx cypress Open
+
+and execute our scenarion with runner 
+
+
+
+Describe ("validate Login Functionality",function()=>{
+
+
+    it("login with correct username and password",function()=>{
+
+    })
+
+
+})
+
+
+create new project and open any of the website
+
+
+Locator
+
+Name and id
+
+purple color - Tag Name
+Red Color - Attribute
+Blue Color - Value
+Black - 
+
+CSS  
+
+1 -   Tagname[attribute='value']
+
+input[name='q']
+
+input[id='email']
+
+
+Assignment for Mercury tour demo registration page with name and id
+
+https://demo.guru99.com/test/newtours/register.php
+
+
+Xpath
+
+//tagname[@attribute='value']
+
+--//input[@id='twotabsearchtextbox'] --Amazon Search Practice by id
+--//input[@type='text'] ---- Amazon Search Practice by name
+//input[@title='Search']
+
+
+2-  //tagname[text()='text value']
+
+//a[text()='Gmail']
+//a[text()='Home']  ---- Home Amazon Practice
+//a[text()= 'Fashion']  Amazon Fashion Practice
+
+3- (//a[text()='Best Sellers'])[1] --- locationwise Xpath
+(//tagname[text()='text value']) [1,2,3]
+
+--(//a[text()='Customer Service'])[1]// customer service amazon.com.au Practice
+
+
+4 -  //a[text()='Today's Deals']
+
+//tagname[contains(text(),'search value')]
+
+//a[contains(text(),'Today')]
+
+
+Install cypress Xpath - npm install -D cypress-xpath
+
+
+var a = 20
+
+
+cy.get("").then((a)=>{
+
+    a.text();
+})
+
+in cypress text we cant print directly - we have to store in variable and call text method in cypress to print
+
+
+
